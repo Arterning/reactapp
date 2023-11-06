@@ -4,6 +4,8 @@ import 'dayjs/locale/zh-cn';
 
 import { FC, useMemo } from 'react';
 
+import SpringDemo from '@/components/demo/spring';
+
 import $styles from './app.module.css';
 import { localeData } from './components/demo/constants';
 import ContextDemo, { Locale } from './components/demo/context';
@@ -53,6 +55,7 @@ const Main: FC = () => {
                         <ContextDemo />
                         <ReducerDemo />
                         <CustomDemo />
+                        <SpringDemo />
                     </div>
                 </AntdApp>
             </StyleProvider>
